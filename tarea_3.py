@@ -22,10 +22,10 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-def sharpen(img):
-    kernel = np.array([[-1, -1, -1], [-1, 9.5, -1], [-1, -1, -1]])
-    img_sharpen = cv.filter2D(img, -1, kernel)
-    return img_sharpen
+# def sharpen(img):
+#     kernel = np.array([[-1, -1, -1], [-1, 9.5, -1], [-1, -1, -1]])
+#     img_sharpen = cv.filter2D(img, -1, kernel)
+#     return img_sharpen
 
 
 def img_annotate(img, text, color=(0, 255, 0)):
